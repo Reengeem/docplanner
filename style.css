@@ -1,0 +1,495 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  background-color: #fff;
+}
+
+/* --------------------------styling of header section---------------------------------------------------- */
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+}
+
+header img {
+  width: 268px;
+  height: 33px;
+}
+
+#nav-link {
+  display: flex;
+  gap: 2rem;
+  font-size: 16px;
+  font-weight: 400;
+}
+#nav-link a {
+  text-decoration: none;
+}
+
+#nav-about-us,
+#nav-career:hover,
+#nav-departments:hover {
+  color: #00b39b;
+  text-decoration: none;
+}
+
+#nav-career,
+#nav-departments {
+  color: #ababab;
+}
+/* ---------- End of Header styling  */
+
+/* ----------First secion styling===================================================== */
+
+#logo-logo {
+  width: 40px;
+  aspect-ratio: auto 40 / 40;
+  height: 40px;
+}
+
+.first-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 8rem;
+}
+
+#first-section-p1 {
+  color: #00b39b;
+  font-size: 2rem;
+  /* font-family: hel; */
+  font-weight: 100;
+  letter-spacing: -0.3px;
+  /* padding-top: 20; */
+}
+
+.div-paragraphs {
+  color: #747474;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  padding-left: 260px;
+  padding-right: 280px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.div-p1 {
+  padding-right: 30px;
+}
+
+/* ----------------------Second section styling start here--------------------------------- */
+.second-section {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 1.375em 1.25em 0;
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 3.75rem auto 2.5rem;
+  color: #fff;
+  font-family: Work Sans, Arial, sans-serif;
+  max-width: 1015px;
+  padding: 0 20px;
+  position: relative;
+}
+
+.second-section img {
+  width: 25px;
+  height: auto;
+}
+.section-div1 {
+  height: 345px;
+  background-color: #00ccb1;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2em 2em 0;
+}
+
+.section-div2 {
+  background-color: #3d83df;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  justify-content: space-between;
+  padding: 2em 2em 0;
+  height: 345px;
+}
+
+.section-div3 {
+  background-color: #1b2734;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  justify-content: space-between;
+  padding: 2em 2em 0;
+  height: 345px;
+}
+
+.section-div1 select {
+  background-color: #00ccb1;
+  border: none;
+  text-decoration: underline;
+  margin: 30px;
+  color: #fff;
+  border: none;
+  font-size: 1em;
+  /* font-style: bold; */
+}
+
+.section-div2 select {
+  background-color: #3d83df;
+  border: none;
+  text-decoration: underline;
+  margin: 30px;
+  color: #fff;
+  border: none;
+  font-size: 1em;
+  /* font-style: bold; */
+}
+
+.section-div3 select {
+  background-color: #1b2734;
+  border: none;
+  text-decoration: underline;
+  margin: 30px;
+  color: #fff;
+  border: none;
+  font-size: 1em;
+  /* font-style: bold; */
+}
+
+.section-div1 #for-patients,
+.section-div2 #for-doctors,
+.section-div3 #for-clinics {
+  font-size: 1.625em;
+  font-weight: 400;
+  color: #fff;
+  margin: 0.3em 0;
+  font-family: Work Sans, Arial, sans-serif;
+}
+/* =================End of second section styling============================ */
+/* ------------ Third section start here--------------- */
+
+.section-three {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.section-three div {
+  width: 60;
+  display: flex;
+}
+
+@media screen and (min-width: 1024px) {
+  #third-section-logo {
+    grid-template-columns: auto auto auto;
+  }
+}
+#third-section-title {
+  width: 50%;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.625em;
+  margin: 0.25em 0 0.35em;
+  padding-right: 1em;
+  color: #00b39b;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+}
+
+#third-section-logo {
+  width: 50%;
+  display: flex;
+  gap: 4rem;
+  flex-wrap: wrap;
+}
+
+#third-section-logo img {
+  width: 7.5rem;
+  object-fit: contain;
+}
+/* -----------fourth section styling start here------------------- */
+
+.fourth-section {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin-top: 50px;
+  padding-left: 50px;
+  background-color: #d0faf4;
+  /* border: 1px solid #000; */
+}
+
+.left-div {
+  font-family: Work Sans, Arial, sans-serif;
+  padding-top: 80px;
+  width: 50%;
+
+  /* border: 1px solid #000; */
+}
+
+.left-div h2 {
+  color: #00b39b;
+  padding-left: 50px;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+}
+
+.left-div p {
+  padding-left: 50px;
+  padding-top: 20px;
+  font-size: 15px;
+  color: #747474;
+  padding-bottom: 50px;
+}
+
+/* ------------Left div finish here------------- */
+
+/* .right-div {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+  margin-left: 100px;
+
+  display: flex;
+  margin-right: 50px;
+  height: 100%;
+  justify-content: space-around;
+  margin-left: 100px;
+} */
+
+.right-div {
+  display: flex;
+  /* justify-content: space-between; */
+  width: 50%;
+  height: 90vh;
+  /* border: 1px solid #cf1c1c; */
+}
+
+.left-col-div,
+.right-col-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  /* border: 1px solid #000; */
+  /* margin-bottom: 20px; */
+  width: 50%;
+  padding: 20px;
+}
+
+.left-col-div {
+  padding-top: 40px;
+}
+
+.right-col-div {
+  padding-bottom: 40px;
+}
+
+.left-col-div > div,
+.right-col-div > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  padding: 10px;
+  background-color: #fff;
+  height: 45%;
+}
+
+.left-col-div > div h3,
+.right-col-div > div h3 {
+  color: #00b39b;
+  font-size: 1.8em;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+}
+
+.left-col-div > div p,
+.right-col-div > div p {
+  color: #747474;
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 400;
+}
+
+/* left column style */
+/* h3 {
+    margin-top: 20px;
+  margin-right: 20px;
+  font-size: 1.8em;
+  color: #00b39b;
+
+display: flex;
+  margin-right: 50px;
+  height: 100%;
+  justify-content: space-around;
+  margin-left: 100px;
+
+} */
+
+/* .right-col-div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+} */
+
+/* -------------------------fifth section style----------------- */
+.fifth-section {
+  padding-top: 70px;
+  width: 100%;
+}
+#fifth-section-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#fifth-section-inner h3 {
+  color: #00b39b;
+  font-size: 2.1428571429em;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.5px;
+  text-align: center;
+}
+
+#fifth-section-inner p {
+  color: #747474;
+  margin: 1.6em 0;
+  line-height: 2;
+  text-align: center;
+  font-weight: 400;
+  font-family: Roboto, Arial, sans-serif;
+}
+/* --------------End of fifth section----------  */
+
+@media screen and (min-width: 964px) {
+  .country-section {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .country-section {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .country-section {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+.country-section {
+  width: 100%;
+  display: grid;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 80px;
+}
+
+.city-div {
+  /* width: 25%; */
+  border-radius: 10px;
+  display: grid;
+  justify-content: space-between;
+}
+.city-div:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.city-button {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.city-button button {
+  background-color: #3d83df;
+  border: 0;
+  border-radius: 5px;
+  font-size: 10px;
+  padding: 5px;
+  color: #fff;
+}
+
+.city-button h3 {
+  font-size: 1.5;
+  color: #747474;
+  padding-right: 20px;
+  font-weight: 400;
+  /* padding-top: 20px; */
+  /* padding-left: 20px; */
+}
+
+.opening-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  gap: 40px;
+}
+.opening-section h1 {
+  font-size: 2.1428571429em;
+  color: #333;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  font-family: Work Sans, Arial, sans-serif;
+  /* text-align: center; */
+}
+
+.opening-section button {
+  background-color: #3d83df;
+  color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  border: 0;
+
+  /* padding: 20px
+  font-weight:700;
+  font-size: 12px; */
+}
+
+footer {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 12px;
+  color: #ababab;
+  padding-left: 100px;
+  padding-right: 100px;
+  /* padding-top: 30px; */
+}
+footer p {
+  padding-top: 20px;
+}
+
+footer a {
+  text-decoration: none;
+}
